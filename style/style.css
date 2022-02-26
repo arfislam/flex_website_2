@@ -1,0 +1,57 @@
+ nav {
+     height: 50px;
+     width: 900px;
+     background-color: rgb(106, 56, 153);
+
+ }
+
+ nav ul {
+     display: flex;
+     padding: 0;
+     height: 50px;
+     align-items: center;
+     justify-content: center;
+
+
+
+ }
+
+ nav ul li {
+     margin: 10px;
+     list-style-type: none;
+ }
+
+ nav ul li a {
+     color: rgb(179, 235, 27);
+     text-decoration: none;
+ }
+
+ .box {
+     height: 900px;
+     width: 900px;
+     border: 1px solid red;
+     flex-wrap: wrap;
+     display: flex;
+     justify-content: space-evenly;
+     align-content: space-evenly;
+ }
+
+
+
+ .item1,
+ .item2,
+ .item3,
+ .item4,
+ .item5,
+ .item6,
+ .item7,
+ .item8,
+ .item9 {
+     height: 280px;
+     width: 280px;
+     border: 1px solid red;
+ }
+ img{
+     height: 280px;
+     width: 280px;
+ }
